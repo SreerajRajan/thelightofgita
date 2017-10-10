@@ -1,0 +1,55 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+sloka {
+    text-align: center;
+    color: #12629c;
+    background-color: #f2f2f2;
+    padding: 10px;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+sloka {
+    text-align: center;
+    color: #12629c;
+    background-color: #f2f2f2;
+    padding: 10px;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+slokadivider {
+    height: 1px;
+    width: 70%;
+    background-image: linear-gradient(to left, rgba(101,138,212,.5) 0%, rgba(121,220,98,.5) 100%);
+    background-color: rgba(5,165,209,.75)
+}
+.dividerL {
+    height: 2px;
+    width: 100%;
+    background-image: linear-gradient(to left, rgba(101,138,212,.5) 0%, rgba(121,220,98,.5) 100%);
+        background-color: rgba(5,165,209,.75);
+}
